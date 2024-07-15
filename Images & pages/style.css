@@ -44,12 +44,12 @@ body {
   display: flex;
   justify-content: end;
 }
-.title1 {
+.title1, .title2 {
   padding: 15px;
 }
 .title1:hover {
-  text-decoration: underline;
-  color: green;
+  color: rgb(47, 149, 109);
+  border-bottom: 3px solid rgb(47, 149, 109);
 }
 
 .text-container {
