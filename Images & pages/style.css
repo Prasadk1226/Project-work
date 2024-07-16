@@ -50,6 +50,7 @@ body {
 .title1:hover {
   color: rgb(47, 149, 109);
   border-bottom: 3px solid rgb(47, 149, 109);
+  font-size: x-large;
 }
 
 .text-container {
@@ -75,6 +76,7 @@ body {
 button:hover {
   border: 1px dashed lightgreen;
   background-color: rgb(47, 149, 109);
+  font-size: large;
 }
 
 .flex-container1 {
@@ -99,3 +101,26 @@ button:hover {
   font-size: larger;
   color: rgb(47, 149, 109);
 }
+
+
+.foot-image{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 5%;
+
+}
+
+.text{
+  padding: 0% 5%;
+  text-align: left;
+}
+
+
+@media screen and (max-width:520px) {
+  .image-header, .foot-image{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+}
+
