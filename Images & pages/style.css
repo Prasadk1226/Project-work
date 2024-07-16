@@ -109,6 +109,9 @@ button:hover {
   padding: 5%;
 
 }
+.footimg{
+  width: 500px;
+}
 
 .text{
   padding: 0% 5%;
@@ -116,11 +119,29 @@ button:hover {
 }
 
 
-@media screen and (max-width:520px) {
+/* @media screen and (max-width:740px) {
   .image-header, .foot-image{
     display: flex;
     flex-wrap: wrap;
   }
   
-}
+  
+} */
+ @media screen and (max-width:829px) {
+  .image-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  .foot-image{
+    display: flex;
+    flex-wrap: wrap;;
+    justify-content: center;
+  }
+  .footimg{
+    width: 350px;
+  }
+  
+ }
 
