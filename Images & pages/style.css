@@ -46,11 +46,21 @@ body {
 }
 .title1, .title2 {
   padding: 15px;
+  text-decoration: none;
+  color: aliceblue;
+  text-decoration: none;
 }
 .title1:hover {
   color: rgb(47, 149, 109);
   border-bottom: 3px solid rgb(47, 149, 109);
   font-size: x-large;
+  text-shadow: 0px 0px 10px rgb(47, 149, 109) ;
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(47, 149, 109);
+  font-size: x-large;
+  text-shadow: 0px 0px 10px rgb(47, 149, 109)
 }
 
 .text-container {
@@ -66,6 +76,10 @@ body {
   width: 80vw;
   padding: 5%;
 }
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
 
 .items button {
   padding: 10px;
@@ -77,6 +91,7 @@ button:hover {
   border: 1px dashed lightgreen;
   background-color: rgb(47, 149, 109);
   font-size: large;
+  
 }
 
 .flex-container1 {
