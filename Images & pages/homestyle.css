@@ -68,6 +68,7 @@ body {
     background-image: url(./Imgs/about-05.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
   .text-container {
@@ -91,7 +92,7 @@ body {
     /* border: 5px solid; */
   }
   .text-box{
-    padding: 0px 30px;
+    padding: 0px 5px;
   }
  
   .text-box i{
